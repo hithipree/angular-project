@@ -1,0 +1,786 @@
+body
+{
+  margin: 0;
+  padding: 0%;
+  font-family: poppins, sans-serif;
+}
+.container
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.content-left
+{
+  width: 63%;
+  background: linear-gradient(163.28deg, #FF4EAD 3.44%, #FF4A5B 38.41%, #C402F8 69.2%, #6248FF 103.64%);
+  display:flex;
+  flex-direction: column;
+}
+.content-right
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.top
+{
+  height: 134px;
+  display: flex;
+  justify-content: space-between;
+}
+.img 
+{
+  display: flex;
+  flex-direction: column;
+}
+.vector-img
+{
+  position: absolute;
+  width: 8%;
+}
+.barcode-img
+{
+  position: absolute;
+  width: 4.3%;
+  margin-top: 11%;
+  margin-left: 3%;
+}
+.vector1-img
+{
+  width: 8%;
+}
+.middle
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18%;
+}
+.left-content
+{
+  margin-left: 4.5%;
+  width: 42%;
+}
+h3
+{
+  font-family: poppins,sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+.para
+{
+  font-family: poppins, sans-serif;
+  margin-top: 29px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.round-img
+{
+  margin-top: 3%;
+}
+.bill-img
+{
+  position: absolute;
+  margin-top: -7%;
+  width: 24%;
+  margin-left: 32%;
+}
+.arrow
+{
+  display: flex;
+  justify-content: center;
+}
+.up
+{
+  position: absolute;
+  width: 8px;
+  margin-right: 40%;
+  bottom: 10%;
+}
+.down
+{
+  position: absolute;
+  bottom: 6%;
+  margin-left: 380px;
+  width: 83px;
+}
+.left-bottom
+{
+  position: relative;
+  flex: 1;
+  display: flex;
+}
+.bottom
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  Width: 100%;
+}
+.pics
+{
+  display: flex;
+  align-items: flex-end;
+}
+.vector2-img
+{
+  width: 70px;
+}
+.vector3-img
+{
+  width: 70px;
+  margin-left: -20%;
+}
+.vector4-img
+{
+  width: 70px;
+  margin-left: 110px;
+}
+.circle
+{
+  display: flex;
+  align-items: flex-end;
+}
+.dots
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.dots-img
+{
+  width: 13%;
+}
+.labo
+{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+.labo-img
+{
+  width: 200px;
+}
+.center
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.login-form
+{
+  width: 75%;
+}
+h1
+{
+  font-family: poppins,sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+  color: #2d3748;
+  margin-bottom: 1px;
+}
+.wave
+{
+  color:rgba(255, 238, 0, 0.801)
+}
+h2
+{
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a202c;
+}
+.login-text label
+{
+  margin-top: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+	color: #4A5568;
+}
+.login-text input
+{
+  width: 100%;
+  height: 45px;
+  padding-left: 25px;
+  margin: 5px 0px 3px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #646464;
+}
+.login-text placeholder 
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D3748;
+}
+.login-password label
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+	color: #4A5568;
+}
+.login-password input
+{
+  width: 100%;
+  height: 45px;
+  padding-left: 25px;
+  margin: 5px 0px 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #646464;
+}
+.login-password placeholder
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D3748;
+  margin-bottom: 0px;
+}
+.login-password input
+{
+  position: relative;
+}
+.icon
+{
+  position: absolute;
+  margin-left: -3%;
+  margin-top: 1.1%;
+}
+.radio-password
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.radio input
+{
+  position: absolute;
+  margin-left: 0%;
+  box-sizing: border-box;
+  background: #F7FAFC;
+  border: 1.5px solid #B4B4B5;
+}
+.radio label
+{
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 0;
+}
+.radio #color:checked
+{
+  accent-color: #ff4081;
+}
+.now 
+{
+  text-decoration: none;
+  margin-top: -1px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #2c5282;
+  cursor: pointer;
+}
+.buttons
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.btn
+{
+ width: 100%;
+ height: 45px;
+ border-radius: 3px;;
+ box-sizing: border-box;
+ text-align: center;
+ font-size: 16px;
+ background-color: #0A0E1F;
+ color: white;
+ cursor: pointer;
+}
+.btn1
+{
+  width: 100%;
+  height: 45px;
+  margin-top: 3px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.bottom-text
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.message
+{
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+}
+.sample
+{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  color: #2b6cb0;
+}
+
+/* For Desktop View */
+/* For 1024px */
+@media screen and (max-width: 1024px)
+{
+  .login-form
+  {
+    width: 75%;
+  }
+  .icon
+  {
+    margin-top: 1.5%;
+    margin-left: -4%;
+  }
+  .bottom-text
+  {
+    position: absolute;
+    bottom: 5px;
+  }
+}
+
+/* For 1500px */
+@media screen and (max-width: 1500px)
+{
+  .login-form
+  {
+    width: 75%;
+  }
+  .login-text
+  {
+    margin-top: 3%;;
+  }
+  .login-password
+  {
+    margin-top: 1%;
+  }
+  .buttons
+  {
+    margin-top: 5%;
+  }
+  .bottom-text
+  {
+    position: absolute;
+    bottom: 15px;
+  }
+}
+
+/* For 1680px */
+@media screen and (max-width: 1680px) and (min-height: 1050px)
+{
+  .login-form
+  {
+    width: 75%;
+  }
+  .login-text
+  {
+    margin-top: 3%;;
+  }
+  .login-password
+  {
+    margin-top: 1%;
+  }
+  .icon
+  {
+    margin-top: 0.8%;
+    margin-left: -3%;
+  }
+  .buttons
+  {
+    margin-top: 5%;
+  }
+  .bottom-text
+  {
+    position: absolute;
+    bottom: 15px;
+  }
+}
+
+/* For 1920px */
+@media screen and (max-width: 1920px) and (min-height: 1200px)
+{
+  .middle
+  {
+    margin-top: 20%;
+  }
+  .login-form
+  {
+    width: 75%;
+  }
+  h2 
+  {
+    margin-top: 1%;
+  }
+  .login-text
+  {
+    margin-top: 3%;;
+  }
+  .login-password
+  {
+    margin-top: 2%;
+  }
+  .icon
+  {
+    margin-top: 0.7%;
+    margin-left: -2.5%;
+  }
+  .buttons
+  {
+    margin-top: 3%;
+  }
+  .bottom-text
+  {
+    position: absolute;
+    bottom: 15px;
+  }
+}
+
+/* For 2560px */
+@media screen and (max-width: 2560px) and (min-height: 1440px)
+{
+  .middle
+  {
+    margin-top: 25%;
+  }
+  .login-form
+  {
+    width: 75%;
+  }
+  h2 
+  {
+    margin-top: 1%;
+  }
+  .login-text
+  {
+    margin-top: 3%;;
+  }
+  .login-password
+  {
+    margin-top: 2%;
+  }
+  .icon
+  {
+    margin-top: 0.5%;
+    margin-left: -2%;
+  }
+  .buttons
+  {
+    margin-top: 3%;
+  }
+  .bottom-text
+  {
+    position: absolute;
+    bottom: 15px;
+  }
+}
+
+/* For Tablet View */
+/* For 1024px */
+@media screen and (max-width: 1024px) and (min-height: 1366px)
+{
+  .buttons
+  {
+    margin-top: 5%;
+  }
+  .icon
+  {
+    margin-top: 1.5%;
+    margin-left: -4%;
+  };
+}
+
+/* For 992px */
+@media screen and (max-width: 992px)
+{
+  .container
+  {
+    background-image: url('src/assets/images/vec-img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-left
+  {
+    width: 100%;
+    height: 0%;
+    background : none;
+  }
+  .top
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .vector-img
+  {
+    position: absolute;
+    width: 10%;
+  }
+  .barcode-img
+  {
+    position: absolute;
+    width: 6%;
+    margin-top: 18%;
+    margin-left: 7%;
+  }
+  .vector1-img
+  {
+    width: 7%;
+  }
+  .middle
+  {
+    display: none;
+  }
+  .arrow
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .up
+  {
+    position: absolute;
+    width: 0.9%;
+    top: 3%;
+    left: 81%;
+    bottom: 10%;
+  }
+  .down
+  {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    width: 9%;
+  }
+  .left-bottom
+  {
+    display: flex;
+    align-items: flex-end;
+  }
+  .vector2-img
+  {
+    display: none;
+  }
+  .vector3-img
+  {
+    display: none;
+  }
+  .vector4-img
+  {
+    display: none;
+  }
+  .circle
+  {
+    display: flex;
+    align-items: flex-end;
+  }
+  .vector5-img
+  {
+    width: 50%;
+    transform: rotate(82.3deg);
+    margin-bottom: -134%;
+    margin-left: 20%;
+  }
+  .content-right
+  {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 1px 1px #0003;
+  }
+  .dots
+  {
+    display: none;
+  }
+  .labo
+  {
+    margin-top: 2%;
+  }
+  .labo-img
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .center
+  {
+    width: 100%;
+  }
+  .login-form
+  {
+    width: 75%;
+  }
+  .icon
+  {
+    margin-top: 1.5%;
+    margin-left: -4%;
+  }
+}
+
+/* For 800px */
+@media screen and (max-width: 800px)
+{
+  .down
+  {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 9%;
+  }
+  .vector5-img
+  {
+    width: 45%;
+    transform: rotate(82.3deg);
+    margin-bottom: -106%;
+    margin-left: 30%;
+  }
+  .icon
+  {
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+}
+
+/* For 768px */
+@media screen and (max-width: 768px)
+{
+  .down
+  {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    width: 9%;
+  }
+  .vector5-img
+  {
+    width: 40%;
+    transform: rotate(82.3deg);
+    margin-bottom: -100%;
+    margin-left: 40%;
+  }
+  .icon
+  {
+    margin-top: 2%;
+    margin-left: -5%;
+  }
+}
+
+/* For 600px */
+@media screen and (max-width: 600px)
+{
+  .down
+  {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 9%;
+  }
+  .vector5-img
+  {
+    width: 35%;
+    transform: rotate(82.3deg);
+    margin-bottom: -80%;
+    margin-left: 40%;
+  }
+}
+
+/* For 604px */
+@media screen and (max-width: 604px) 
+{
+  .down
+  {
+    position: absolute;
+    top: 9.5%;
+    right: 8%;
+    width: 9%;
+  }
+  .vector5-img
+  {
+    width: 30%;
+    transform: rotate(82.3deg);
+    margin-bottom: -80%;
+    margin-left: 40%;
+  }
+}
+
+/* For 480px */
+@media screen and (max-width: 480px) 
+{
+  .vector5-img
+  {
+    width: 25%;
+    transform: rotate(82.3deg);
+    margin-bottom: -62%;
+    margin-left: 60%;
+  }
+  .icon
+  {
+    margin-top: 3%;
+    margin-left: -7%;
+  }
+}
+
+/* For 720px */
+@media screen and (max-width: 720px) and (min-height: 1280px)
+{
+  .down
+  {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 10%;
+  }
+  .vector5-img
+  {
+    width: 35%;
+    transform: rotate(82.3deg);
+    margin-bottom: -95%;
+    margin-left: 40%;
+  }
+  .icon
+  {
+    margin-top: 2%;
+    margin-left: -6%;
+  }
+}
+
+/* For 768px */
+@media screen and (max-width: 768px) and (min-height: 1366px)
+{
+  .down
+  {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 10%;
+  }
+}
